@@ -39,6 +39,7 @@ var MetadataGrid3 = (() => {
         this.conf.dxGridType = this.conf.dxGridType || ''; // dx grid type affects columns for dx pages.
 
         this.allMetaData = [];
+        this.originalMetadata = [];
         this.selectedMetadata = []; // selected items, referencing this.allMetaData
         this.allMetaData_cachedDate = '';
 
@@ -87,7 +88,8 @@ var MetadataGrid3 = (() => {
         var idx_allItems = null;
         var tipTypes = [];
         var currentTab = this.eltTabs.jqxTabs('selectedItem');
-
+        
+       
         if (calledFromSelectAll) {
             idx_allItems = {};
             for (i = 0; i < this.allMetaData.length; i++) {
@@ -124,6 +126,9 @@ var MetadataGrid3 = (() => {
                 }
                 if (calledFromSelectAll && !selected) {
                     e.r = false;
+                }
+                if(calledFromSelectAll && this.originalMetadata.length>0 && this.originalMetadata[i].n === e.n && selected){
+                    e.r = this.originalMetadata[i].r;
                 }
             }
         }
@@ -304,7 +309,7 @@ var MetadataGrid3 = (() => {
             gitCommitCompare: [
                 [copadoLabels.selected, '5%', 'bool', 's', 'checkbox', null, null, null, null, null, null],
                 [copadoLabels.RETRIEVE_ONLY, '5%', null, 'r', 'checkbox', null, null, null, null, false, null],
-                [copadoLabels.STATUS, '5%', 'input', 'a', 'textbox', 'contains', false, null, cellsrendererCmm, null, null],
+                [copadoLabels.ACTION, '5%', 'input', 'a', 'textbox', 'contains', false, null, cellsrendererCmm, null, null],
                 [copadoLabels.name, '25%', 'input', 'n', 'textbox', 'contains', false, null, null, null, null],
                 [copadoLabels.type, '13%', this.TypeFilterType, 't', 'textbox', null, false, null, null, !this.isTypeFilterable, null],
                 [copadoLabels.LastModifiedById, '20%', 'input', 'b', null, 'contains', false, null, null, null, null],
@@ -381,6 +386,8 @@ var MetadataGrid3 = (() => {
                     item[1] = '6%';
                 } else if (item[0] == copadoLabels.type) {
                     item[1] = '25%';
+                } else if (item[0] == copadoLabels.ACTION) {
+                    item[1] = '10%';
                 }
             }
             for (var property in objectStruct) {
@@ -598,8 +605,17 @@ var MetadataGrid3 = (() => {
                     self.eltGrid.jqxGrid('setcellvalue', event.args.rowindex, 'r', false);
                     self.eltGrid.jqxGrid('setcellvalue', event.args.rowindex, 's', false);
                 }
-
+                
                 self._setSelectionState(t.s, [t], true, t);
+                if(self.originalMetadata){
+                    for(let i=0; i<self.originalMetadata.length ; i++)
+                    {
+                        if(self.originalMetadata[i].n === t.n && t.s === true && self.originalMetadata[i].r === true){
+                            self.eltGrid.jqxGrid('setcellvalue', event.args.rowindex, 'r', true);
+                        }
+                    }
+                }
+                
             });
         }
 
@@ -868,6 +884,7 @@ var MetadataGrid3 = (() => {
                 );
             }
 
+            self.originalMetadata = JSON.parse(JSON.stringify(allMetaData));
             self.showTabs();
             self._setGridData(allMetaData);
 
@@ -1051,6 +1068,7 @@ var MetadataGrid3 = (() => {
             eltsWithRetrieveOnly = [];
         var idx_allItems = {};
         var data = {};
+        let compare = '';
 
         this._matchSelectedItemsWithAllMetaData(allMetaDataParam);
 
@@ -1059,14 +1077,17 @@ var MetadataGrid3 = (() => {
                 // Check that the row is not vlocity
                 if (!allMetaDataParam[i].v) {
                     data = getRetrieveEndpointModel(allMetaDataParam[i]);
+                    if(!allMetaDataParam[i].r){
+                        compare = `<a type="Button" class="compareBtn" style="font-size: 12px;color: #1589EE" data-index="${i}" data-name="${data.name}" data-type="${data.type}" onclick="jqx.retrieveCompareData(this)" >
+                        <img src="${metadataGridImagesPath}/compare.png" />
+                        <span>Compare</span>
+                        </a>`;
+                    }
+                     
                     allMetaDataParam[i]['ch'] = `<div id="compareCell" class="slds-media slds-media_center slds-p-left_medium">
                         <div id="compareMsgWrapper">
-                            <div id="compareMsg">
-                                <a type="Button" class="compareBtn" style="font-size: 12px;color: #1589EE" data-index="${i}" data-name="${data.name}" data-type="${data.type}" onclick="jqx.retrieveCompareData(this)">
-                                    <img src="${metadataGridImagesPath}/compare.png" />
-                                    <span>Compare</span>
-                                </a>
-                            </div>
+                            <div id="compareMsg">`+ compare+                              
+                            `</div>
                             <div id="differencesBothMsg" style="display: none;">
                                 <a type="Button" class="diffBtn" style="font-size: 12px;color: #1589EE" data-index="${i}" onclick="jqx.showDifferences(this)" >
                                     <img src="${metadataGridImagesPath}/differences_both_icon.png" />
@@ -1104,7 +1125,7 @@ var MetadataGrid3 = (() => {
                                 </a>
                             </div>
                         </div>
-                    </div>`;
+                    </div>`;                  
                 } else {
                     data = getRetrieveEndpointModel(allMetaDataParam[i]);
                     allMetaDataParam[i]['ch'] = `<div id="previewCell" class="slds-media slds-media_center slds-p-left_medium">
@@ -1387,7 +1408,7 @@ var MetadataGrid3 = (() => {
                 'cache-control': ' no-cache',
                 userId: _temp_conf.userId,
                 orgId: _temp_conf.orgId,
-                token: _temp_conf.token
+                token2: _temp_conf.token2
             },
             method: 'GET',
             onSuccess: (response) => {
