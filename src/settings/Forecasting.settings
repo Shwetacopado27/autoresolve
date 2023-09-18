@@ -230,10 +230,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -281,7 +277,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -439,10 +434,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -490,7 +481,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -652,10 +642,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -704,7 +690,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -862,10 +847,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -913,7 +894,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1075,10 +1055,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -1127,7 +1103,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1285,10 +1260,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -1336,7 +1307,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1498,10 +1468,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -1550,7 +1516,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1708,10 +1673,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -1759,7 +1720,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1921,10 +1881,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -1973,7 +1929,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -2131,10 +2086,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -2182,7 +2133,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -2344,10 +2294,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -2396,7 +2342,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -2554,10 +2499,6 @@
             <label>Budget Confirmed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N7Q000003eAuz</field>
             <label>Discovery Completed</label>
         </opportunityListFieldsLabelMappings>
@@ -2605,7 +2546,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>

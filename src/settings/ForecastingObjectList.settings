@@ -78,10 +78,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -185,7 +181,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -270,10 +265,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -377,7 +368,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -462,10 +452,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -574,7 +560,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -659,10 +644,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -766,7 +747,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -851,10 +831,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -963,7 +939,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1048,10 +1023,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -1155,7 +1126,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1240,10 +1210,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -1352,7 +1318,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1437,10 +1402,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -1544,7 +1505,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1629,10 +1589,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -1741,7 +1697,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -1826,10 +1781,6 @@
             <label>Owner Full Name</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
@@ -1933,7 +1884,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -2016,10 +1966,6 @@
         <forecastingObjectListLabelMappings>
             <field>FULL_NAME</field>
             <label>Owner Full Name</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -2130,7 +2076,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>
@@ -2213,10 +2158,6 @@
         <forecastingObjectListLabelMappings>
             <field>FULL_NAME</field>
             <label>Owner Full Name</label>
-        </forecastingObjectListLabelMappings>
-        <forecastingObjectListLabelMappings>
-            <field>00N7Q00000JXoRo</field>
-            <label>count</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
@@ -2322,7 +2263,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N7Q000003eAuy</field>
-            <field>00N7Q00000JXoRo</field>
             <field>00N7Q000003eAuz</field>
             <field>00N7Q000003eAv1</field>
             <field>00N7Q000003eAv0</field>

@@ -141,15 +141,6 @@
         <fullName>Quantity</fullName>
     </fields>
     <fields>
-        <fullName>Serial_No__c</fullName>
-        <externalId>false</externalId>
-        <label>Serial No</label>
-        <length>50</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>ServiceDate</fullName>
     </fields>
     <fields>
