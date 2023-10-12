@@ -10,7 +10,7 @@ public class ContactonAccount_Test {
     {
         //Create test account record
         
-        Account acc = new Account(name='test Account',AnnualRevenue =1234);
+        Account acc = new Account(name='test1 Account',AnnualRevenue =1234);
         insert acc;
        List<Contact> cc = [Select id from contact where accountid = :acc.Id];
            System.assertequals(1,cc.size());
