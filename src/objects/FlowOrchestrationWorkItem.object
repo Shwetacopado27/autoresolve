@@ -81,12 +81,12 @@
             <operation>equals</operation>
             <value>ASG</value>
         </filters>
-        <label>Alle offenen Arbeitselemente</label>
+        <label>All Open Work Items</label>
     </listViews>
     <listViews>
         <fullName>All_Work_Items</fullName>
         <filterScope>Everything</filterScope>
-        <label>Alle Arbeitselemente</label>
+        <label>All Work Items</label>
     </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

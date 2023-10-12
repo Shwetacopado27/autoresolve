@@ -182,17 +182,9 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Knowledge</tabs>
     <tabs>MobileLanding</tabs>
-    <tabs>copado__Compliance_Rule_Criteria__c</tabs>
-    <tabs>copado__Static_Code_Analysis_Violation__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>MobileLanding</tab>
-        </mappings>
-        <mappings>
-            <tab>copado__Compliance_Rule_Criteria__c</tab>
-        </mappings>
-        <mappings>
-            <tab>copado__Static_Code_Analysis_Violation__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
