@@ -259,6 +259,15 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Cigna_Demo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is for testing</description>
+        <externalId>false</externalId>
+        <label>Cigna_Demo</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
