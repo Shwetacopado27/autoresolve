@@ -261,6 +261,7 @@
     <fields>
         <fullName>Cigna_Demo__c</fullName>
         <defaultValue>false</defaultValue>
+        <description>This is for testing</description>
         <externalId>false</externalId>
         <label>Cigna_Demo</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -403,14 +404,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>customfield_Script__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>customfield_Script</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>autoresolve_demo__c</fullName>
         <externalId>false</externalId>
         <label>autoresolve_demo</label>
@@ -419,6 +412,14 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>customfield_Script__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>customfield_Script</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
