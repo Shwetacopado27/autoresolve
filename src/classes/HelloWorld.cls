@@ -1,6 +1,6 @@
 global class HelloWorld {
 public String hello() {
-return 'Hello World1';
+return 'Hello World12';
 //Sample Class
 }
 }
