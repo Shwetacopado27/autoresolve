@@ -1,4 +1,4 @@
-//testclass for hello world
+//test class
 @isTest
 private class HelloWorldTest {
 @isTest static void hello() {
