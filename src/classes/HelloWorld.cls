@@ -1,6 +1,6 @@
 global class HelloWorld {
 public String hello() {
-return 'Hello World23321';
-//shweta trying
+return 'Hello World12';
+//Sample Class
 }
 }
