@@ -377,6 +377,34 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Trying__c</fullName>
+        <externalId>false</externalId>
+        <label>Trying</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ABC</fullName>
+                    <default>true</default>
+                    <label>ABC</label>
+                </value>
+                <value>
+                    <fullName>CDE</fullName>
+                    <default>false</default>
+                    <label>CDE</label>
+                </value>
+                <value>
+                    <fullName>WQE</fullName>
+                    <default>false</default>
+                    <label>WQE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
