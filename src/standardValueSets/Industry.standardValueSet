@@ -157,8 +157,8 @@
         <label>Transportation</label>
     </standardValue>
     <standardValue>
-        <fullName>Utilities</fullName>
+        <fullName>Aerospace &amp; Defense</fullName>
         <default>false</default>
-        <label>Utilities</label>
+        <label>Aerospace &amp; Defense</label>
     </standardValue>
 </StandardValueSet>
