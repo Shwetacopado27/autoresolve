@@ -31,4 +31,10 @@
         <label>Critical</label>
         <closed>false</closed>
     </standardValue>
+    <standardValue>
+        <fullName>IN Progress</fullName>
+        <default>false</default>
+        <label>IN Progress</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>
