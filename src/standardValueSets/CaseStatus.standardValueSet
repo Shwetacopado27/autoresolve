@@ -43,4 +43,10 @@
         <label>Draft</label>
         <closed>false</closed>
     </standardValue>
+    <standardValue>
+        <fullName>In UAT</fullName>
+        <default>false</default>
+        <label>In UAT</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>
