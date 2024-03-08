@@ -49,4 +49,10 @@
         <label>In UAT</label>
         <closed>false</closed>
     </standardValue>
+    <standardValue>
+        <fullName>In QA</fullName>
+        <default>false</default>
+        <label>In QA</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>
