@@ -272,6 +272,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ENV_Test1__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;www.google.com&quot;, &quot;How to complete all relevant Next Steps&quot;) &amp; BR() &amp; 
+HYPERLINK(&quot;www.google.com&quot;, &quot;How to Close Deals faster&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ENV_Test1</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>External_ID__c</fullName>
         <externalId>true</externalId>
         <label>External ID</label>
