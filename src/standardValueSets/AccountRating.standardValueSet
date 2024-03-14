@@ -17,13 +17,8 @@
         <label>Cold</label>
     </standardValue>
     <standardValue>
-        <fullName>Colder</fullName>
+        <fullName>Warmer</fullName>
         <default>false</default>
-        <label>Colder</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Hotter</fullName>
-        <default>false</default>
-        <label>Hotter</label>
+        <label>Warmer</label>
     </standardValue>
 </StandardValueSet>
